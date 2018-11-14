@@ -65,23 +65,73 @@ body p{
   background-color: black;
   margin-top: 4%;
   padding: 5%;
-  opacity: 0.9;
+  opacity: 0.85;
+}
+/* this is for index*/
+.container_index{
+  max-width: 75%;
+  height: 25vw;
+  margin: 0 auto;
+  border-color: #48c2c5;
+  border-style: solid;
+  border-width: 0.75vw;
+  border-radius: 2vw;
+  margin-top: 4%;
+  padding: 5%;
+}
+
+#index h1{
+  font-size: 3vw;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#index h3{
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 2vw;
+  color: white;
+}
+#button_container{
+  text-align: center;
+  margin-top: 5vw;
+
+}
+#index a{
+  border-color: #48c2c5;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 20px;
+}
+#index a:link {
+  text-align: center;
+  Font-Family: 'verdana', Serif;
+  font-size: 1.5vw;
+}
+#index a:visited {
+  color: white;
+}
+#index a:hover {
+  background-color: #48c2c5;
 }
 /*this is for porfolio*/
-#porfolio{
-  line-height:1.5vw;
-  font-size: 1.2vw;
+.container_ {
   color: white;
-  max-width: 50%;
-  float:left;
+  line-height:1.4vw;
+
 }
-#porfolio p{
-  margin-top: 10%;
-  margin-bottom: 10%;
+.container_ h2{
+  color: #f16667;
 }
-#porfolio h1{
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+.container_ h3{
+  color: #48c2c5;
+}
+.container_ ul{
+  list-style: none;
 }
 .container_ iframe{
   margin-left: 8%;
@@ -89,6 +139,19 @@ body p{
   height: 858px;
   opacity: 1;
   overflow: hidden;
+}
+
+#porfolio{
+  max-width: 50%;
+  float:left;
+}
+#porfolio p{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#porfolio h3{
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 
 /*this is for PJ*/
